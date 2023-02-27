@@ -4,11 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="styles.css">
     <title>Sing Up!</title>
 </head>
 <body>
-    
+    <main>
+        <div id="logo-container"><h1>UNVEINED</h1></div>
+        <form action="" method="get">
+                <p id="blurb"></p>
+                <div id="fields-container">
+                    <p></p>
+                    <fieldset>
+                        <label for="first-name"></label>
+                        <input id="first-name" name="user_first_name" type="text">
+                        <label for="last-name"></label>
+                        <input id="last-name" name="user_last_name" type="text">
+                    </fieldset>
+                    <fieldset>
+                        <label for="email"></label>
+                        <input id="email" name="user_email" type="email">
+                        <label for="phone-number"></label>
+                        <input id="phone-number" name="user_number" type="tel">
+                    </fieldset>
+                    <fieldset>
+                        <label for="password"></label>
+                        <input id="password" name="user_password" type="password">
+                        <label for="repeat-password"></label>
+                        <input id="repeat-password" name="user_password_check" type="password">
+                    </fieldset>
+                </div>
+                <button>CREATE ACCOUNT</button>
+                <p id="sign-in-prompt"></p>
+        </form>
+    </main>
 </body>
 </html>
