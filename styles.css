@@ -3,3 +3,31 @@ body {
     background-size: auto 120vh;
     background-repeat: no-repeat;
 }
+
+main {
+    margin-left: 35vw;
+    background-color: azure;
+    height: 100vh;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+#fields-container {
+    background-color: floralwhite;
+}
+
+fieldset {
+    display: flex;
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-field > input {
+    max-width: 500px;
+}
+

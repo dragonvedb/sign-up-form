@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="styles.css">
     <title>Sing Up!</title>
 </head>
@@ -11,30 +12,42 @@
     <main>
         <div id="logo-container"><h1>UNVEINED</h1></div>
         <form action="" method="get">
-                <p id="blurb"></p>
+                <p id="blurb">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ullam officiis laborum possimus dolor aspernatur officia accusantium facere error animi cum sapiente, inventore provident, aut quae incidunt veniam dignissimos excepturi?</p>
                 <div id="fields-container">
-                    <p></p>
+                    <p>Lorem ipsum dolor sit amet consectetur</p>
                     <fieldset>
-                        <label for="first-name"></label>
-                        <input id="first-name" name="user_first_name" type="text">
-                        <label for="last-name"></label>
-                        <input id="last-name" name="user_last_name" type="text">
+                        <div class="form-field">
+                            <label for="first-name">FIRST NAME</label>
+                            <input id="first-name" name="user_first_name" type="text">
+                        </div>
+                        <div class="form-field">
+                            <label for="last-name">LAST NAME</label>
+                            <input id="last-name" name="user_last_name" type="text">
+                        </div>
                     </fieldset>
                     <fieldset>
-                        <label for="email"></label>
-                        <input id="email" name="user_email" type="email">
-                        <label for="phone-number"></label>
-                        <input id="phone-number" name="user_number" type="tel">
+                        <div class="form-field">
+                            <label for="email">EMAIL</label>
+                            <input id="email" name="user_email" type="email">
+                        </div>
+                        <div class="form-field">
+                            <label for="phone-number">PHONE NUMBER</label>
+                            <input id="phone-number" name="user_number" type="tel">
+                        </div>
                     </fieldset>
                     <fieldset>
-                        <label for="password"></label>
-                        <input id="password" name="user_password" type="password">
-                        <label for="repeat-password"></label>
-                        <input id="repeat-password" name="user_password_check" type="password">
+                        <div class="form-field">
+                            <label for="password">PASSWORD</label>
+                            <input id="password" name="user_password" type="password">
+                        </div>
+                        <div class="form-field">
+                            <label for="repeat-password">COMFIRM PASSWORD</label>
+                            <input id="repeat-password" name="user_password_check" type="password">
+                        </div>
                     </fieldset>
                 </div>
                 <button>CREATE ACCOUNT</button>
-                <p id="sign-in-prompt"></p>
+                <p id="sign-in-prompt">Already have an account? <a href="">Sign in</a> </p>
         </form>
     </main>
 </body>
