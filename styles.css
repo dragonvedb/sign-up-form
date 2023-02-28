@@ -10,6 +10,19 @@ main {
     height: 100vh;
 }
 
+main p {
+    margin-top: 0;
+}
+
+#logo-container {
+    position: absolute;
+    width: 35vw;
+    height: 150px;
+    top: 200px;
+    left: 0;
+    background-color: red;
+}
+
 h1 {
     margin-top: 0;
 }
