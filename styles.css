@@ -8,6 +8,7 @@ main {
     margin-left: 35vw;
     background-color: azure;
     height: 100vh;
+    padding-top: 150px;
 }
 
 main > p {
@@ -17,6 +18,8 @@ main > p {
 main > p,
 form {
     padding-left: 45px;
+    font-family: 'Volkhov', serif;
+    font-size: 1.4rem;
 }
 
 #logo-container {
@@ -26,6 +29,8 @@ form {
     top: 200px;
     left: 0;
     background-color: red;
+
+    font-family:'Yeseva One', cursive;
 }
 
 h1 {
@@ -52,6 +57,11 @@ fieldset {
     width: max(10vw, 300px);
     height: 1.8em;
     padding-left: 12px;
+}
+
+label,
+button {
+    font-family: 'Barlow Condensed', sans-serif;
 }
 
 button {
