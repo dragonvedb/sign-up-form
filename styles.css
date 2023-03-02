@@ -80,15 +80,20 @@ input {
     border-radius: 6px;
 }
 
+input[type="email"]:invalid:not(:placeholder-shown) {
+    border-color: hsl(4, 68%, 52%);
+    box-shadow: 0px 0px 10px hsl(4, 68%, 52%);
+}
+
+/*input:invalid:empty:not(:focus) {
+    border-color: hsl(270, 100%, 10%);
+    box-shadow: none;
+}*/
+
 input:focus {
     border-color: hsl(303, 75%, 34%);
     box-shadow: 0px 0px 10px hsl(303, 75%, 34%);
     outline: none;
-}
-
-input:invalid:not(:focus) {
-    border-color: hsl(4, 68%, 52%);
-    box-shadow: 0px 0px 10px hsl(4, 68%, 52%);
 }
 
 label,
