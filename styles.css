@@ -120,3 +120,12 @@ button:active {
     margin-top: 30px;
     font-size: 1rem;
 }
+
+#sign-in-prompt a {
+    text-decoration: none;
+    color: hsl(303, 75%, 34%);
+}
+
+#sign-in-prompt a:hover {
+    color: hsl(303, 100%, 20%);
+}
