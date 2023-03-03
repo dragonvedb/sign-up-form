@@ -9,7 +9,7 @@ main {
     color: hsl(270, 100%, 10%);
     background-color: hsl(335, 25%, 90%);
     height: 100%;
-    padding-top: 100px;
+    padding-top: 150px;
 }
 
 main > p {
@@ -24,12 +24,12 @@ form {
 }
 
 #logo-container {
-    position: absolute;
+    position: fixed;
     display: flex;
     width: 35vw;
     height: 200px;
     top: 190px;
-    left: 0;
+    transform: translateX(-100%);
 
     justify-content: center;
     align-items: center;
@@ -147,7 +147,7 @@ button:active {
 #sign-in-prompt {
     margin-top: 30px;
     margin-bottom: 0;
-    padding-bottom: 100px;
+    padding-bottom: 150px;
     font-size: 1rem;
 }
 
@@ -159,3 +159,4 @@ button:active {
 #sign-in-prompt a:hover {
     color: hsl(303, 100%, 20%);
 }
+
