@@ -9,7 +9,7 @@ main {
     color: hsl(270, 100%, 10%);
     background-color: hsl(335, 25%, 90%);
     height: 100vh;
-    padding-top: 150px;
+    padding-top: 100px;
 }
 
 main > p {
@@ -20,7 +20,7 @@ main > p,
 form {
     padding-left: 45px;
     font-family: 'Volkhov', serif;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
 }
 
 #logo-container {
@@ -48,6 +48,21 @@ form {
 h1 {
     margin: 0;
     height: fit-content;
+}
+
+.blurb {
+    width: clamp(300px, 80%, 1000px);
+    line-height: 1.2em;
+}
+
+.blurb:first-of-type {
+    font-size: 1.6rem;
+}
+
+.blurb em {
+    font-style: italic;
+    color: hsl(303, 75%, 34%);
+    text-decoration: underline;
 }
 
 form {
