@@ -20,7 +20,7 @@
                     as well as allowing communities to create shared knowledge databases and <em>discussion archives</em> 
                     instead of rehashing same old "discourse" <i>ad nauseam</i>.</p>
                 <p class="blurb">It is, first and foremost, a vehicle for <em>collective understanding</em>.</p>
-                <form id="sign-up" action="" method="get">
+                <form novalidate id="sign-up" action="" method="get">
                     <p>Join the beating heart of the Net Nouveau.</p>
                     <fieldset>
                         <div class="form-field">
@@ -45,7 +45,7 @@
                     <fieldset>
                         <div class="form-field">
                             <label class="required" for="password">PASSWORD</label>
-                            <input id="password" name="user_password" type="password" required>
+                            <input id="password" name="user_password" type="password" minlength="8" required>
                         </div>
                         <div class="form-field">
                             <label class="required" for="repeat-password">CONFIRM PASSWORD</label>
@@ -57,4 +57,5 @@
                 <p id="sign-in-prompt">Already have an account? <a href="">Sign in!</a> </p>
     </main>
 </body>
+<script src="script.js"></script>
 </html>
