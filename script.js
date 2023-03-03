@@ -9,7 +9,7 @@ password_input.addEventListener('input', e => {
 
 submit.addEventListener('click',()=>{
   if (password_confirm_input.validity.patternMismatch) {
-    password_confirm_input.setCustomValidity('Please make sure your passwords match');
+    password_confirm_input.setCustomValidity('Please make sure your passwords match.');
   } else { 
     password_confirm_input.setCustomValidity('');
   }
