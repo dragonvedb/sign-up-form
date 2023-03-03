@@ -75,7 +75,7 @@ form {
 
 fieldset {
     display: flex;
-    gap: 80px;
+    gap: min(5%, 80px);
     border: none;
     padding-left: 0;
 }
@@ -95,7 +95,7 @@ label.required::after {
 }
 
 input {
-    width: max(10vw, 300px);
+    width: min(20vw, 400px);
     height: 1.8em;
     margin-top: 5px;
     padding-left: 12px;
