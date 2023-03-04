@@ -5,6 +5,7 @@ body {
 }
 
 main {
+    position: relative;
     margin-left: 35vw;
     color: hsl(270, 100%, 10%);
     background-color: hsl(335, 25%, 90%);
@@ -160,3 +161,22 @@ button:active {
     color: hsl(303, 100%, 20%);
 }
 
+.credits {
+    position: absolute;
+    width: 35vw;
+    bottom: 15px;
+    transform: translateX(-100%);
+    text-align: center;
+    color: hsl(335, 25%, 90%);
+    font-family: 'Volkhov', serif;
+    font-size: 0.9em;
+    opacity: 0.8;
+}
+
+.credits p {
+    margin: 0;
+}
+
+.credits a {
+    color: hsl(335, 25%, 90%);
+}
